@@ -9,7 +9,7 @@ const getAdvice = async function () {
   adviceNumber.textContent = `ADVICE #${slip.id}`;
   adviceText.textContent = slip.advice;
 };
-
+getAdvice();
 diceBtn.addEventListener("click", function () {
   getAdvice();
 });
