@@ -7,7 +7,7 @@ const getAdvice = async function () {
   const { slip } = await res.json();
 
   adviceNumber.textContent = `ADVICE #${slip.id}`;
-  adviceText.textContent = slip.advice;
+  adviceText.textContent = `"${slip.advice}"`;
 };
 getAdvice();
 diceBtn.addEventListener("click", function () {
