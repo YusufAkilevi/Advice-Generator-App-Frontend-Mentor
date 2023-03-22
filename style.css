@@ -81,3 +81,20 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (max-width: 375px) {
+  .advice-container {
+    width: 90%;
+    padding: 2rem;
+  }
+  .advice-number {
+    margin-top: 1.5rem;
+    margin-bottom: 2.4rem;
+  }
+  .advice-text {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .pattern-divider-img {
+    margin-bottom: 3.6rem;
+  }
+}
